@@ -47,7 +47,7 @@ if yesNo == 'yes':
             comxx1 = 'ディーラーのカードの合計は' + dkad2p + 'でした。'
             print(comxx1)
             if player3 <= 15 or player3 >= 22:
-                print('あなたのカードの合計は' + player3 + 'なため、あなたの負けです。')
+                print('あなたのカードの合計は' + str(player3) + 'なため、あなたの負けです。')
             elif com2x >= 22:
                 print('ディーラーのカードの合計は21より大きいのであなたの勝ちです!!!')
             elif player3 >= com2x + 1:
@@ -97,7 +97,7 @@ if yesNo == 'yes':
             comxx1 = 'ディーラーのカードは' + dkad2p + 'でした。'
             print(comxx1)
             if player3 <= 15 or player3 >= 22:
-            print('あなたのカードの合計は' + player3 + 'なため、あなたの負けです')
+                print('あなたのカードの合計は' + str(player3) + 'なため、あなたの負けです')
             elif com2x >= 22:
                 print('ディーラーのカードの合計は21より大きいのであなたの勝ちです!!!')
             elif player3 >= com2x + 1:
@@ -146,11 +146,11 @@ if yesNo == 'yes':
         print('再度実行をお願い致します。')
 elif yesNo == 'No' or yesNo == 'no':
     #comxx1代入
-    if com2x >= 16:
+    if com2x >= 15:
         comxx1 = 'ディーラーのカードは' + dkad2p + 'でした。'
         print(comxx1)
         if player3 <= 15 or player3 >= 22:
-            print('あなたのカードの合計は' + player3 + 'なため、あなたの負けです')
+            print('あなたのカードの合計は' + str(player3) + 'なため、あなたの負けです')
         elif com2x >= 22:
             print('ディーラーのカードの合計は21より大きいのであなたの勝ちです!!!')
         elif player3 >= com2x + 1:
