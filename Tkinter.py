@@ -27,8 +27,10 @@ textBox2.place(x=30, y=120)
 point=500
 def val():
     # テキストボックスの値を取得
-    print(textBox1.get())
-    print(textBox2.get())
+    if textBox1.get() == 'toa1102' and textBox2.get() == 'toatoatoa2':
+        print('ok')
+    else:
+        print('NO')
 # ボタンの作成と配置
 button = tk.Button(baseGround,
                 text = 'OK',
@@ -37,14 +39,6 @@ button = tk.Button(baseGround,
                 ).place(x=30, y=180)
 baseGround.mainloop()
 
-root = tk.Tk()
-root.geometry('200x55')
-
-label = tk.Label(root, text='あなたのユーザー名：')
-label = tk.Label(root, text='あなたのパスワード：')
-label.pack()
-
-root.mainloop()
 
 #if textBox1.get() == 'toa1102' and textBox2.get() == 'toatoatoa2':
 #    root = tk.Tk()
