@@ -1,5 +1,4 @@
 import random
-from playsound import playsound
 print()
 koment = input('勇者の冒険')
 print()
@@ -24,7 +23,6 @@ koment = input('戦闘開始!')
 print('何をだしますか？')
 aaa = int(input('1:サーベル　2:刀'))
 if aaa == random.randint(1,2):
-    playsound("剣で斬る3.mp3")
     koment = input(name1 + '    クリティカルヒット！')
     koment = input(name1 + '    あなたの勝ちです！')
 else:
@@ -36,7 +34,6 @@ else:
         print('何をだしますか？')
         aaa = int(input('1:サーベル　2:刀'))
         if aaa == random.randint(1,2):
-            playsound("剣で斬る3.mp3")
             koment = input(name1 + '    クリティカルヒット！')
             koment = input(name1 + '    あなたの勝ちです！')
         else:
@@ -66,7 +63,6 @@ else:
                 print('何をだしますか？')
                 aaa = int(input('1:サーベル　2:刀'))
                 if aaa <= 1:
-                    playsound("剣で斬る3.mp3")
                     koment = input(name1 + '    クリティカルヒット！')
                     koment = input(name1 + '    あなたの勝ちです！')
 
