@@ -50,21 +50,18 @@ textBox5.place(x=30, y=60)
 point=500
 def val():
     # テキストボックスの値を取得
-    if textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox3.get() == str(math1 + math2) and textBox4.get() == str(math7 + math8) and textBox5.get() == str(math9 + math10):
-        print('100')
-    elif textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox4.get() == str(math1 + math2) and textBox5.get() == str(math7 + math8):
-        print('80')
-    elif textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox4.get() == str(math1 + math2) and textBox5.get() == str(math9 + math10):
-        print('80')
-    elif textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox4.get() == str(math1 + math2) and textBox5.get() == str(math7 + math8) and textBox5.get() == str(math9 + math10):
-        print('80')
-    elif textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox4.get() == str(math1 + math2) and textBox5.get() == str(math7 + math8) and textBox5.get() == str(math9 + math10):
-        print('80')
-    elif textBox1.get() == str(math1 + math2) and textBox1.get() == str(math3 + math4) and textBox2.get() == str(math5 + math6) and textBox4.get() == str(math1 + math2) and textBox5.get() == str(math7 + math8) and textBox5.get() == str(math9 + math10):
-        print('80')
-
+    if textBox1.get() == str(math1 + math2):
+        if textBox1.get() == str(math3 + math4):
+                if textBox1.get() == str(math5 + math6):
+                        if textBox1.get() == str(math7 + math8):
+                                if textBox1.get() == str(math9 + math10):
+                                    print()
     else:
-        print('NO')
+        if textBox1.get() == str(math3 + math4):
+            if textBox1.get() == str(math5 + math6):
+                    if textBox1.get() == str(math7 + math8):
+                            if textBox1.get() == str(math9 + math10):
+                                    print()
 # ボタンの作成と配置
 button = tk.Button(baseGround,
                 text = 'OK',
