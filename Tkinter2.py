@@ -54,14 +54,70 @@ def val():
         if textBox1.get() == str(math3 + math4):
                 if textBox1.get() == str(math5 + math6):
                         if textBox1.get() == str(math7 + math8):
+####################################################################################
                                 if textBox1.get() == str(math9 + math10):
-                                    print()
+                                        root = tk.Tk()
+                                        root.geometry('500x300')
+
+                                        label = tk.Label(root, text='数学ゲーム')
+                                        label.pack()
+
+                                        root.mainloop()
+                                else:
+                                        root = tk.Tk()
+                                        root.geometry('500x300')
+
+                                        label = tk.Label(root, text='数学ゲーム')
+                                        label.pack()
+
+                                        root.mainloop()
+####################################################################################
+                        else:
+                                if textBox1.get() == str(math9 + math10):
+                                        root = tk.Tk()
+                                        root.geometry('500x300')
+
+                                        label = tk.Label(root, text='数学ゲーム')
+                                        label.pack()
+
+                                        root.mainloop()
+                                else:
+                                        root = tk.Tk()
+                                        root.geometry('500x300')
+
+                                        label = tk.Label(root, text='数学ゲーム')
+                                        label.pack()
+
+                                        root.mainloop()
+####################################################################################
+                else:
+                        root = tk.Tk()
+                        root.geometry('500x300')
+
+                        label = tk.Label(root, text='数学ゲーム')
+                        label.pack()
+
+                        root.mainloop()
+        else:
+                root = tk.Tk()
+                root.geometry('500x300')
+
+                label = tk.Label(root, text='数学ゲーム')
+                label.pack()
+
+                root.mainloop()
     else:
         if textBox1.get() == str(math3 + math4):
-            if textBox1.get() == str(math5 + math6):
-                    if textBox1.get() == str(math7 + math8):
-                            if textBox1.get() == str(math9 + math10):
-                                    print()
+                if textBox1.get() == str(math5 + math6):
+                        if textBox1.get() == str(math7 + math8):
+                                if textBox1.get() == str(math9 + math10):
+                                        root = tk.Tk()
+                                        root.geometry('500x300')
+
+                                        label = tk.Label(root, text='数学ゲーム')
+                                        label.pack()
+
+                                        root.mainloop()
 # ボタンの作成と配置
 button = tk.Button(baseGround,
                 text = 'OK',
